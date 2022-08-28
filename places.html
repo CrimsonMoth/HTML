@@ -11,8 +11,24 @@
       crossorigin="anonymous"
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
     <style>
-    
+      .card {
+        border-radius: 1em;
+        text-align: center;
+        padding: 0.1em;
+      }
+      .card:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .card img {
+        border-radius: 50%;
+        width: 60%;
+        margin: auto;
+      }
     </style>
   </head>
   <body>
@@ -47,17 +63,46 @@
       </div>
     </nav>
     <div class="container my-5">
-      <div class="row">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
         <div class="col">
-          <div class="card" style="width: 18rem;">
-          <img src="imageOla.jpg" class="card-img-top" alt="My Image">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary"
-            >Go somewhere</a>
+          <div class="card">
+           <img src="https://picsum.photos/id/1011/300" class="card-img-top" alt="My Image">
+           <div class="card-body">
+            <h5 class="card-title">Morning Calmness</h5>
+            <p class="card-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui molestiae obcaecati ea doloremque ab quo officiis amet, soluta excepturi similique. ipsum dolor sit amet consectetur, adipisicing elit. Dolorem et necessitatibus culpa omnis, maxime sunt, harum voluptate commodi, expedita nisi saepe. Dignissimos nulla voluptas sequi enim expedita a iste harum?
+            </p>
+            <a href="https://picsum.photos/id/1011/1500"
+            target="_blank" class="btn btn-primary"
+            >Large Photo</a>
           </div>
         </div>
+      </div>
+      <div class="col">
+        <div class="card">
+         <img src="https://picsum.photos/id/206/300" class="card-img-top" alt="My Image">
+         <div class="card-body">
+          <h5 class="card-title">Serene Contryside Landscape</h5>
+          <p class="card-text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui molestiae obcaecati ea doloremque ab quo officiis amet, soluta excepturi similique. ipsum dolor sit amet consectetur, adipisicing elit. Dolorem et necessitatibus culpa omnis, maxime sunt, harum voluptate commodi, expedita nisi saepe. Dignissimos nulla voluptas sequi enim expedita a iste harum?
+          </p>
+          <a href="https://picsum.photos/id/206/1500"
+          target="_blank" class="btn btn-primary"
+          >Large Photo</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+       <img src="https://picsum.photos/id/434/300" class="card-img-top" alt="My Image">
+       <div class="card-body">
+        <h5 class="card-title">Amazing Canada Nature</h5>
+        <p class="card-text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui molestiae obcaecati ea doloremque ab quo officiis amet, soluta excepturi similique. ipsum dolor sit amet consectetur, adipisicing elit. Dolorem et necessitatibus culpa omnis, maxime sunt, harum voluptate commodi, expedita nisi saepe. Dignissimos nulla voluptas sequi enim expedita a iste harum?
+        </p>
+        <a href="https://picsum.photos/id/434/1500"
+        target="_blank" class="btn btn-primary"
+        >Large Photo</a>
       </div>
     </div>
   </body>
